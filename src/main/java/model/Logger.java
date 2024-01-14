@@ -14,7 +14,7 @@ public class Logger {
     private final PrintWriter logWriter;
     private final PrintWriter errorWriter;
 
-    private Logger(PrintWriter logWriter, PrintWriter errorWriter) {
+    Logger(PrintWriter logWriter, PrintWriter errorWriter) {
         this.logWriter = logWriter;
         this.errorWriter = errorWriter;
     }
